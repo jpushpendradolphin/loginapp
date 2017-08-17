@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<!-- <style>
 div.container {
-    width: 500%;
+    width: 100%;
     border: 0px solid gray;
     background-color : #ffb3b3
 }
@@ -38,7 +38,8 @@ article {
     padding: 1em;
     overflow: hidden;
 }
-</style>
+</style> -->
+<link rel="stylesheet"  href = "css/login.cs"></link>
 </head>
 <body>
 
