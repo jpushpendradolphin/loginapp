@@ -8,7 +8,7 @@ public class LogginConnection {
 	private String url = "jdbc:oracle:thin:@localhost:1521:XE";
 	private String user = "chetsk";
 	private String pass = "chetak";
-	private Connection conn = null;
+	private static Connection conn = null;
 	
 	public LogginConnection() throws Exception{
 		Class.forName(driverClass);

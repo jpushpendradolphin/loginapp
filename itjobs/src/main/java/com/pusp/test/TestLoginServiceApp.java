@@ -1,8 +1,10 @@
 package com.pusp.test;
 
+import com.pusp.db.LogginConnection;
+
 public class TestLoginServiceApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		LogginConnection conn = new LogginConnection();
 
 	}
