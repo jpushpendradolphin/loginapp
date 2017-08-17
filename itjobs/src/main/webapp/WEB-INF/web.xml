@@ -4,6 +4,16 @@
 
 <web-app>
   <display-name>Login Service</display-name>
+  <filter>
+  	<filter-name>loginFilter</filter-name>
+  	<display-name>loginFilter</display-name>
+  	<description></description>
+  	<filter-class>com.pusp.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>loginFilter</filter-name>
+  	<url-pattern>/loginFilter</url-pattern>
+  </filter-mapping>
   <welcome-file-list>  
    <welcome-file>Home.jsp</welcome-file>  
   </welcome-file-list>  
