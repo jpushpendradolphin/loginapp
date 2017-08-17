@@ -14,5 +14,7 @@ public class LogginConnection {
 		Class.forName(driverClass);
 		conn = DriverManager.getConnection(url, user, pass);
 	}
-
+	public static Connection getLoginConnection(){
+		return conn;
+	}
 }
