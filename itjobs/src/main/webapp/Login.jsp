@@ -19,10 +19,10 @@ Login Page
   </ul>
 </nav>
 
-<article>
+<article style = "text-align : center">
   <h1>Welcome To Login Page</h1>
   <form action = "login" name = "loginForm" onsubmit="return validateForm()">
-  <table>
+  <table align = "center">
   <tr>
   <td>UserName</td>
   <td><input type = "text" name = "uname"/></td>
