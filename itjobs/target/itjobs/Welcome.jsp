@@ -1,6 +1,4 @@
-<html>
-<body>
-<h2>Welcome To Home Page</h2>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="css/login.css"></link>
@@ -10,7 +8,7 @@
 <div class="container">
 
 <header>
-Welcome To ChetakJobs Home Page
+Welcome Page
 </header>
   
 <nav>
@@ -22,12 +20,13 @@ Welcome To ChetakJobs Home Page
 </nav>
 
 <article>
-  <h1>Welcome To ChetakJobs</h1>
+  <h1 style = "color:green; text-align : center">Login Success</h1>
   <img src = "img/jobs_header.jpg"></img>
 </article>
 
 <footer>Copyright &copy; chetakjobs.com</footer>
 
 </div>
+
 </body>
 </html>

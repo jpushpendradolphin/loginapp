@@ -1,6 +1,4 @@
-<html>
-<body>
-<h2>Welcome To Home Page</h2>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="css/login.css"></link>
@@ -29,5 +27,6 @@ Welcome To ChetakJobs Home Page
 <footer>Copyright &copy; chetakjobs.com</footer>
 
 </div>
+
 </body>
 </html>
