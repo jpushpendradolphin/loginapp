@@ -14,7 +14,7 @@ Login Page
   
 <nav>
   <ul>
-    <li><a href="#">Login</a></li>
+    <!-- <li><a href="#">Login</a></li> -->
     <li><a href="#">SignUp</a></li>
     <li><a href="#">Contact Us</a></li>
   </ul>
@@ -22,7 +22,7 @@ Login Page
 
 <article>
   <h1>Welcome To Login Page</h1>
-  <form action = "" name = "loginForm" onsubmit="return validateForm()">
+  <form action = "login" name = "loginForm" onsubmit="return validateForm()">
   <table>
   <tr>
   <td>UserName</td>

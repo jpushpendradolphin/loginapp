@@ -10,7 +10,7 @@
 	        return false;
 	    }
 	    
-	    if (pass == "" || uname == pass) {
+	    if (pass == "" || pass == undefined) {
 	        alert("Password must be filled out");
 	        return false;
 	    }

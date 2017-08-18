@@ -6,6 +6,7 @@ public class TestLoginServiceApp {
 
 	public static void main(String[] args) throws Exception {
 		LogginConnection conn = new LogginConnection();
+		System.out.println("conn :"+conn);
 
 	}
 

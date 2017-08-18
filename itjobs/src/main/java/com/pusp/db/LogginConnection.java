@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 import java.sql.Connection;
 
 public class LogginConnection {
-	private String driverClass = "orcale.jdbc.driver.OracleDriver";
+	private String driverClass = "oracle.jdbc.OracleDriver";
 	private String url = "jdbc:oracle:thin:@localhost:1521:XE";
-	private String user = "chetsk";
+	private String user = "chetak";
 	private String pass = "chetak";
 	private static Connection conn = null;
 	
