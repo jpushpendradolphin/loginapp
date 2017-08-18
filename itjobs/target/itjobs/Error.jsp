@@ -20,11 +20,11 @@ Login Page
   </ul>
 </nav>
 
-<article>
-<h3 style = "color : red">Error in Login Either User or Password is Wrong</h3>
+<article style = "text-align:center">
+<h3 style = "color : red; text-align :center">Error in Login Either User or Password is Wrong</h3>
   <h2>Welcome To Login Page</h2>
   <form action = "login" name = "loginForm" onsubmit="return validateForm()">
-  <table>
+  <table align = "center">
   <tr>
   <td>UserName</td>
   <td><input type = "text" name = "uname"/></td>

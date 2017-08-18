@@ -8,7 +8,7 @@
 <div class="container">
 
 <header>
-Welcome To ChetakJobs Home Page
+Home Page
 </header>
   
 <nav>
@@ -20,7 +20,7 @@ Welcome To ChetakJobs Home Page
 </nav>
 
 <article>
-  <h1>Welcome To ChetakJobs</h1>
+  <h1 style = "text-align : center">Welcome To ChetakJobs</h1>
   <img src = "img/jobs_header.jpg"></img>
 </article>
 
