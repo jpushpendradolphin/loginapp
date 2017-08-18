@@ -1,9 +1,12 @@
 package com.pusp;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -42,6 +45,10 @@ public class LoginFilter implements Filter {
 			loginFlag = loginService.validateUser(uname, pass);
 			if(loginFlag == true){
 				chain.doFilter(request, response);
+			}
+			else{
+				RequestDispatcher rd = request.getRequestDispatcher("Error.jsp");
+				rd.include(request, response);
 			}
 			
 		} catch (Exception e) {

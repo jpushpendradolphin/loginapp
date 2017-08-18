@@ -14,9 +14,8 @@ Login Page
   
 <nav>
   <ul>
-    <!-- <li><a href="#">Login</a></li> -->
-    <li><a href="#">SignUp</a></li>
-    <li><a href="#">Contact Us</a></li>
+    <li><a href="Home.jsp">Home</a></li>
+    <li><a href="Contact.jsp">Contact Us</a></li>
   </ul>
 </nav>
 
